@@ -1,0 +1,45 @@
+.start {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	padding-bottom: 100px;
+	
+}
+
+.start_left {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: sticky;
+}
+
+.start_login_logo p {
+	font-size: 3rem;
+}
+
+.start_login_logo .date {
+	font-size: 5rem;
+}
+
+.start_login_logo {
+	line-height: 30px;
+	padding-bottom: 100px;
+}
+
+.start_right {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.start_right p {
+	font-family: 'Antic Didone', serif;
+	font-size: 4rem;
+    margin-top: 100px;
+    margin-left: 20px;
+	margin-bottom: 10px;
+	align-self: flex-start;
+}

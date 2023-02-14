@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{ useState , createContext } from 'react';
+import './style/App.css';
+
+import Panel from './Panel';
+import Start from './Start';
+
+import UserContext from './contexts/userContext';
+import { useContext } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+	const {user} = useContext(UserContext)
+
+	if (user) {
+		return <div className='App'>{<Start/>}</div>;
+	}
+	if (!user) {
+		return (
+			<div className='App'>
+				<Panel/>
+			</div>
+		);
+	}
 }
 
 export default App;

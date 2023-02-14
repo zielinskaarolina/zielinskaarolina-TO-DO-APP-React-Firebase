@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zielinskaarolina-TO-DO-APP-React-Firebase/static/css/main.b9c860ed.css",
+    "main.js": "/zielinskaarolina-TO-DO-APP-React-Firebase/static/js/main.b59d5a99.js",
+    "index.html": "/zielinskaarolina-TO-DO-APP-React-Firebase/index.html",
+    "main.b9c860ed.css.map": "/zielinskaarolina-TO-DO-APP-React-Firebase/static/css/main.b9c860ed.css.map",
+    "main.b59d5a99.js.map": "/zielinskaarolina-TO-DO-APP-React-Firebase/static/js/main.b59d5a99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9c860ed.css",
+    "static/js/main.b59d5a99.js"
+  ]
+}

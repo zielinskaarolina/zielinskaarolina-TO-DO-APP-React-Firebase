@@ -1,7 +1,7 @@
 {
   "name": "planer",
   "version": "0.1.0",
-  "homepage": "https://zielinskaarolina.github.io/to-do-app",
+  "homepage": "https://zielinskaarolina.github.io/zielinskaarolina-TO-DO-APP-React-Firebase",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
